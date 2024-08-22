@@ -67,9 +67,9 @@ Total_Cost_of_Food_daily:
  + 50 Food_McCain,_Mixed_Veg_1.50_Serving
  + 80 Food_McDonald's,_French_Fries_2.00_large___order
  + 100 Food_McDonald's_Australia,_Chocolate_Soft_Serve_Caramel_Sundae,_Large_1.00_Serving
- + 10 Food_Mung_Beans,_Cooked_from_Dried_100.00_g
- + 20 Food_Mung_Beans,_Cooked_from_Dried_200.00_g
- + 40 Food_Mung_Beans,_Cooked_from_Dried_400.00_g
+ + 12 Food_Mung_Beans,_Cooked_from_Dried_100.00_g
+ + 24 Food_Mung_Beans,_Cooked_from_Dried_200.00_g
+ + 48 Food_Mung_Beans,_Cooked_from_Dried_400.00_g
  + 15 Food_Nescafe,_Instant_Coffee_Stick,_Classic_1.00__stick
  + 5 Food_Nescafe,_Instant_Coffee__1.00_tsp
  + 10 Food_Nescafe,_Instant_Coffee__2.00_tsp
@@ -301,7 +301,7 @@ FiberRequirement:
  + 0.27 Food_White_Rice,_Steamed_0.50_cup
  + 0.54 Food_White_Rice,_Steamed_1.00_cup
  + 1.07 Food_White_Rice,_Steamed_2.00_cup
- + 1.61 Food_White_Rice,_Steamed_3.00_cup >= 40
+ + 1.61 Food_White_Rice,_Steamed_3.00_cup >= 0
 ProteinRequirement:
  14 Food_7_Eleven,_Fresh,_Breakfast_Burger,_Bacon,_Egg_&_Cheese_1.00_pack
  + 0.14 Food_Apple,_Fresh,_With_Skin_0.25_large___3_1_4"_diameter
