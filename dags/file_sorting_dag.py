@@ -70,10 +70,23 @@ def sort_files(**kwargs):
                     os.makedirs(dest_dir)
                     logging.info(f"Created directory: {dest_dir}")
 
+                # Determine destination file path
+                destination_file_path = os.path.join(dest_dir, file_name)
+
+                # If the destination file already exists, append a timestamp
+                if os.path.exists(destination_file_path):
+                    # Get the current timestamp
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    # Create a new file name with the timestamp
+                    base, ext = os.path.splitext(file_name)
+                    new_file_name = f"{base}_{timestamp}{ext}"
+                    destination_file_path = os.path.join(dest_dir, new_file_name)
+                    logging.info(f"File already exists. Renaming to: {new_file_name}")
+
                 # Move the file to the destination directory
                 try:
-                    shutil.move(file_path, os.path.join(dest_dir, file_name))
-                    logging.info(f"Moved file: {file_name} to {dest_dir}")
+                    shutil.move(file_path, destination_file_path)
+                    logging.info(f"Moved file: {file_name} to {destination_file_path}")
                 except Exception as e:
                     logging.error(f"Failed to move file: {file_name}. Error: {e}")
             else:
