@@ -1,1 +1,4 @@
 *.env
+/logs
+logfile.log
+test.py

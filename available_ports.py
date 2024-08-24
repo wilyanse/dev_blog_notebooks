@@ -22,5 +22,5 @@ def find_available_ports(start_port, end_port, used_ports):
 if __name__ == "__main__":
     used_ports = get_used_ports()
     available_ports = find_available_ports(1024, 9999, used_ports)
-    print(8080 in available_ports)
+    print(5432 in available_ports)
     print(f"Available ports: {available_ports[::-1]}")
