@@ -87,6 +87,19 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+  db:
+    container_name: health_postgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${user}
+      POSTGRES_PASSWORD: ${password}
+      POSTGRES_DB: ${dbname}
+    ports:
+      - ${dockerport}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
   postgres:
     image: postgres:13
     environment:
@@ -287,3 +300,4 @@ services:
 
 volumes:
   postgres-db-volume:
+  db-data:
