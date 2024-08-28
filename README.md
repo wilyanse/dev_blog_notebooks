@@ -3,3 +3,7 @@
 ### Visit the blog at: https://dev.to/wilyanse.
 
 ### Remember to try using the notebooks with the virtual environment in order to not mix with your global environment.
+
+### clean data by filling in data as needed
+### transform data by changing header title to remove characters
+### load data to bigquery
