@@ -7,3 +7,4 @@
 ### clean data by filling in data as needed
 ### transform data by changing header title to remove characters
 ### load data to bigquery
+- load data by taking rows one by one
