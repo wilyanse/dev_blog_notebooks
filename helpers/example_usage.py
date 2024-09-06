@@ -76,7 +76,6 @@ def delete_mock_data(dbManager, table_name):
 
 load_dotenv()
 dbManager = DatabaseManager(os.getenv('user'), os.getenv('dbname'), os.getenv('password'), os.getenv('host'), os.getenv('port'))
-dbManager.create_tables()
 upload_mock_data(dbManager, 'parameters')
 insert_mock_data(dbManager, 'parameters')
 update_mock_data(dbManager, 'parameters')
