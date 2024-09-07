@@ -398,6 +398,20 @@ class DatabaseManager:
         print('Dataframe insertion to ' + table_name + ' complete.') # Logging to stdout
         cur.close()
 
+    def execute_query(self, query):
+        cur = self.conn.cursor()
+        try:
+            cur.execute(query)
+            print("query executed")
+            self.conn.commit()
+        except Exception as err:
+            self.print_psycopg2_exception(err)
+            self.conn.rollback()
+            return False
+            
+        cur.close()
+        return True
+
     def print_psycopg2_exception(self, err):
         """
         Prints the error obtained from handling database functions with psycopg2

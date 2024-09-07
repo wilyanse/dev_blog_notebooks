@@ -11,6 +11,6 @@ services:
       - ${dockerport}
     volumes:
       - db-data:/var/lib/postgresql/data
-
+      - ./helpers/postgres/:/docker-entrypoint-initdb.d
 volumes:
   db-data:
