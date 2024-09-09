@@ -113,7 +113,7 @@ class DatabaseManager:
         try:
             cur.execute(query, values)
             self.conn.commit()
-            print('Entry insertion of `ship_id:' + values[0] + '` complete') # Logging to stdout
+            print('Entry insertion of value ' + values[0] + '` complete') # Logging to stdout
         except Exception as err:
             self.print_psycopg2_exception(err)
             self.conn.rollback()
@@ -408,7 +408,7 @@ class DatabaseManager:
             self.print_psycopg2_exception(err)
             self.conn.rollback()
             return False
-            
+
         cur.close()
         return True
 
