@@ -100,6 +100,12 @@ class DatabaseManager:
 
         cur = self.conn.cursor()
         
+        # check if entry is present before inserting
+        column_names, rows = self.get_value(table_name, fields, values)
+        if len(rows) >= 1:
+            print('Entry already exists. Insertion is not continued.')
+            return False
+
         # query for inserting values
         query = sql.SQL("""
         INSERT INTO {table} ({fields})
@@ -113,7 +119,6 @@ class DatabaseManager:
         try:
             cur.execute(query, values)
             self.conn.commit()
-            print('Entry insertion of value ' + values[0] + '` complete') # Logging to stdout
         except Exception as err:
             self.print_psycopg2_exception(err)
             self.conn.rollback()
