@@ -3,3 +3,4 @@
 logfile.log
 test.py
 .env
+.venv
