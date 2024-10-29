@@ -4,7 +4,8 @@
 
 ### Remember to try using the notebooks with the virtual environment in order to not mix with your global environment.
 
-### clean data by filling in data as needed
-### transform data by changing header title to remove characters
-### load data to bigquery
+### extract - take in csv files -> output to pandas dataframes
+### transform - take in pandas dataframes -> output cleaned pandas dataframes
+### load - take in pandas dataframes -> save to postgres
+### load data to postgres
 - load data by taking rows one by one
