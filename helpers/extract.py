@@ -21,20 +21,16 @@ print(specific_csv_paths)
 file_categories = defaultdict(list)
 
 # Categorize filenames
-types = ['biometrics', 'dailysummary', 'servings']
-for filename in specific_csv_files:
-    for type in types:
+types = ['biometrics', 'dailysummary', 'servings', 'workouts']
+for type in types:
+    for filename in specific_csv_files:
         if type in filename.lower():
             file_categories[type].append(os.path.join(csv_directory_path, filename))
 
-print(file_categories['biometrics'])
 dataframes = {}
-# TODO: save categories to different pandas df
 for category in file_categories:
     dataframes[category] = pd.DataFrame()
     for file in file_categories[category]:
-        dataframes[category] = pd.concat([dataframes[category], pd.read_csv(file)])
+        dataframes[category] = pd.concat([dataframes[category], pd.read_csv(file)]).reset_index(drop=True)
 
-print(dataframes['servings'])
-
-# TODO: return pandas df in array
+print(dataframes)
