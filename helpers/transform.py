@@ -10,4 +10,7 @@ def transform_column_name(col_name):
     col_name = col_name[:128]
     return col_name
 
-print(transform_column_name('Category'))
+def transform_data(df):
+    new_column_names = [transform_column_name(col) for col in df.columns]
+    df.columns = new_column_names
+    return df
