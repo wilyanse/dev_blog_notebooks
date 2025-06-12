@@ -301,7 +301,78 @@ FiberRequirement:
  + 0.27 Food_White_Rice,_Steamed_0.50_cup
  + 0.54 Food_White_Rice,_Steamed_1.00_cup
  + 1.07 Food_White_Rice,_Steamed_2.00_cup
- + 1.61 Food_White_Rice,_Steamed_3.00_cup >= 0
+ + 1.61 Food_White_Rice,_Steamed_3.00_cup >= 40
+PotassiumRequirement:
+ 59.65 Food_Apple,_Fresh,_With_Skin_0.25_large___3_1_4"_diameter
+ + 178.96 Food_Apple,_Fresh,_With_Skin_0.75_large___3_1_4"_diameter
+ + 238.61 Food_Apple,_Fresh,_With_Skin_1.00_large___3_1_4"_diameter
+ + 194.74 Food_Apple,_Fresh,_With_Skin_1.00_medium___3"_diameter
+ + 319.36 Food_Bacon,_Pork_8.00_slice___6"_long
+ + 422.44 Food_Banana,_Fresh_1.00_medium___7"_to_7_7_8"_long
+ + 361.58 Food_Banana,_Fresh_1.00_small___6"_to_6_7_8"_long
+ + 422.44 Food_Banana,_Fried_1.00_medium___7"_to_7_7_8"_long
+ + 844.88 Food_Banana,_Fried_2.00_medium___7"_to_7_7_8"_long
+ + 384 Food_Beef_Steak,_Sirloin,_No_Visible_Fat_Eaten_100.00_g
+ + 2688 Food_Beef_Steak,_Sirloin,_No_Visible_Fat_Eaten_700.00_g
+ + 591.26 Food_Beef_with_Curry_Sauce_1.00_cup
+ + 455.33 Food_Beer,_Higher_Alcohol_2.00_bottle___each_12_fl_oz
+ + 3.34 Food_Brandy_4.00_jigger_shot___each_1.5_fl_oz
+ + 173.72 Food_Brown_Rice,_Steamed_1.00_cup
+ + 739.94 Food_Cheese_Popcorn_10.00_bag___single_serving___each_1_oz
+ + 295.97 Food_Cheese_Popcorn_4.00_bag___single_serving___each_1_oz
+ + 591.95 Food_Cheese_Popcorn_8.00_bag___single_serving___each_1_oz
+ + 606.23 Food_Chicken_Breast,_Skin_Removed_Before_Cooking_1.00_cup
+ + 296.4 Food_Chicken_Breast,_Skin_Removed_Before_Cooking_1.00_medium___split
+ + 247 Food_Chicken_Breast,_Skin_Removed_Before_Cooking_100.00_g
+ + 494 Food_Chicken_Breast,_Skin_Removed_Before_Cooking_200.00_g
+ + 741 Food_Chicken_Breast,_Skin_Removed_Before_Cooking_300.00_g
+ + 988 Food_Chicken_Breast,_Skin_Removed_Before_Cooking_400.00_g
+ + 66.15 Food_Chicken_Nuggets_or_Sticks,_Store_Bought_3.00_nugget
+ + 248.85 Food_Chicken_Thigh,_Skin_Eaten_1.00_large
+ + 3538.82 Food_Chicken_and_Potatoes_1.00_full_recipe
+ + 301.2 Food_Chicken_and_Veggies_1.00_full_recipe
+ + 626.4 Food_Chicken_patty,_frozen,_cooked_4.00_patty
+ + 383.28 Food_Chicken_with_Gravy_1.00_cup
+ + 63 Food_Chinese_Cabbage,_Pak_Choi,_Raw_25.00_g
+ + 126 Food_Chinese_Cabbage,_Pak_Choi,_Raw_50.00_g
+ + 1150.84 Food_Dairy_Queen,_Blizzard,_Oreo_Cookies_1.00_medium
+ + 189 Food_Egg_and_Corned_Beef_1.00_full_recipe
+ + 189 Food_Egg_and_Tuna_1.00_full_recipe + 94.5 Food_Eggs,_Cooked_1.50_large
+ + 189 Food_Eggs,_Cooked_3.00_large
+ + 99 Food_Force_of_Nature,_Beef_Hotdog_1.00_Link
+ + 104.92 Food_Hamburger_Bun,_White_2.00_medium___3_1_2"_diameter
+ + 200 Food_Kejoy,_Donut,_Dark_Chocolate_Almond_1.00_donut
+ + 203.41 Food_Mac_and_Cheese_1.00_full_recipe
+ + 406.81 Food_Mac_and_Cheese_2.00_full_recipe
+ + 610.22 Food_Mac_and_Cheese_3.00_full_recipe
+ + 2027.54 Food_McDonald's,_French_Fries_2.00_large___order
+ + 266 Food_Mung_Beans,_Cooked_from_Dried_100.00_g
+ + 532 Food_Mung_Beans,_Cooked_from_Dried_200.00_g
+ + 1064 Food_Mung_Beans,_Cooked_from_Dried_400.00_g
+ + 23 Food_Nescafe,_Instant_Coffee_Stick,_Classic_1.00__stick
+ + 149.98 Food_Pancake,_Plain_or_Buttermilk,_Homemade_3.00_each___4"_diameter
+ + 105.46 Food_Peanut_Butter,_Regular,_Salted_1.00_tbsp
+ + 266.8 Food_Pear,_Fresh_1.00_large
+ + 809.77 Food_Pizza,_Homemade_or_Restaurant,_One_Meat_Topping,_Thick_Crust_or_Deep_Dish_300.00_g
+ + 200 Food_Protein_Drink_1.00_full_recipe
+ + 102.48 Food_Quaker,_Instant_Oatmeal,_Plain_1.00_packet___prepared
+ + 204.96 Food_Quaker,_Instant_Oatmeal,_Plain_2.00_packet___prepared
+ + 53.3 Food_Rice,_White,_Short_Grain,_Cooked,_Unenriched_1.00_cup
+ + 79.95 Food_Rice,_White,_Short_Grain,_Cooked,_Unenriched_1.50_cup
+ + 106.6 Food_Rice,_White,_Short_Grain,_Cooked,_Unenriched_2.00_cup
+ + 159.9 Food_Rice,_White,_Short_Grain,_Cooked,_Unenriched_3.00_cup
+ + 108.86 Food_Roast_Beef,_Rump,_No_Visible_Fat_Eaten_1.00_oz
+ + 326.59 Food_Roast_Beef,_Rump,_No_Visible_Fat_Eaten_3.00_oz
+ + 544.31 Food_Roast_Beef,_Rump,_No_Visible_Fat_Eaten_5.00_oz
+ + 55.3 Food_Sardines_and_Rice_1.00_full_recipe
+ + 182.33 Food_Shrimp_Pasta_1.00_full_recipe
+ + 167.41 Food_Spinach,_Raw_1.00_cup,_cut_pieces
+ + 1900 Food_Sweet_Potato,_Baked_400.00_g
+ + 301.87 Food_Tripe_Stew_or_Menudo,_Pima_Indian_1.00_cup
+ + 27.65 Food_White_Rice,_Steamed_0.50_cup
+ + 55.3 Food_White_Rice,_Steamed_1.00_cup
+ + 110.6 Food_White_Rice,_Steamed_2.00_cup
+ + 165.9 Food_White_Rice,_Steamed_3.00_cup >= 3400
 ProteinRequirement:
  14 Food_7_Eleven,_Fresh,_Breakfast_Burger,_Bacon,_Egg_&_Cheese_1.00_pack
  + 0.14 Food_Apple,_Fresh,_With_Skin_0.25_large___3_1_4"_diameter
